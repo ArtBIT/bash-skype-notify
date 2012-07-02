@@ -20,6 +20,7 @@ If you need more functionality, you should probably consider using the Skype API
 
   * Copy this script somewhere, i.e.: `/path/to/this/script/skype-notify.sh`
   * Make it an executable file, i.e.: `chmod +x /path/to/this/script/skype-notify.sh`
+  * Customize the `MY_SKYPE_REGEXP_TRIGGER` variable. Set it to `'(list|of|trigger|words)'`. This will be a list of words that will trigger the notifications. You might wanna set it to `'(your name|your nickname|skype username)'` or something along those lines.
   * Start Skype
   * Go to your skype options, 
   * Choose "Notifications" from the sidebar
