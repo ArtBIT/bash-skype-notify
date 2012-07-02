@@ -3,7 +3,7 @@ bash-skype-notify
 
 Bash Skype Notify
 
-= What is this? =
+## What is this? ##
 
 Linux Skype lacks the proper notifications and message filtering. I have at least 20 group chats open at the same time, and it is pretty time consuming to check all those chats just to see if someone has mentioned my name, and sent me a message.
 
@@ -16,7 +16,7 @@ Usually the message itself is enough to guess the context and contact the sender
 
 If you need more functionality, you should probably consider using the Skype API directly.
 
-= How do I use it? =
+## How do I use it? ##
 
   * Copy this script somewhere, i.e.: `/path/to/this/script/skype-notify.sh`
   * Make it an executable file, i.e.: `chmod +x /path/to/this/script/skype-notify.sh`
@@ -27,7 +27,7 @@ If you need more functionality, you should probably consider using the Skype API
   * Check the "Execute the following script on any event" checkbox
   * Paste the following line into the input box: `/path/to/this/script/skype-notify.sh -e "%type" -u "%sskype" -n "%sname" -m "%smessage"`
 
-= Script params explained: =
+## Script params explained: ##
   *  -e      The type of the Skype event
   *  -u      The Skype username of the message sender
   *  -n      The Skype display name of the mesage sender
